@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}"/>
+    </head>
+    <body>
+        
+
+        <form method="post" class="box" action="validate">
+            MEAN RADIUS<input type="text" name="mean_radius"/>
+            MEAN TEXTURE<input type="text" name="mean_texture"/>
+            MEAN PERIMETER<input type="text" name="mean_perimeter"/>
+            MEAN AREA<input type="text" name="mean_area"/>
+            MEAN SMOOTHNESS<input type="text" name="mean_smoothness"/>
+           
+            <input type="submit" value="CHECK"/>
+        </form>
+    </body>
+</html>
